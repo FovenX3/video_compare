@@ -1,8 +1,12 @@
 # video_compare
 对比两个视频有差异的帧，如web源与bd源哪里作画修正了/圣光没了等
-#pip install opencv-python
-#pip install tqdm
-#pip install scikit-image
+
+
+# requirement
+opencv-python
+tqdm
+scikit-image
+
 
 # 设置视频的帧偏移量（potplayer【d】前一帧【f】后一帧【tab】右上角看当前帧）
 video1offset = 0
