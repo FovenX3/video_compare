@@ -3,13 +3,13 @@
 
 
 # requirement
-opencv-python
-tqdm
+opencv-python  
+tqdm  
 scikit-image
 
 
 # 设置视频的帧偏移量（potplayer【d】前一帧【f】后一帧【tab】右上角看当前帧）
-video1offset = 0
+video1offset = 0  
 video2offset = 0
 
 # 设置每秒要比较的帧数（可以为小数0.5就是两秒一帧）
@@ -19,6 +19,6 @@ frames_per_second = 1
 crop_percentage = 95
 
 # 降采样分辨率（提升效率）
-target_width = 960
+target_width = 960  
 target_height = 540
 
